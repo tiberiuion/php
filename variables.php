@@ -9,10 +9,14 @@
 <body>
     <h1>Variable basics</h1>
     <?php
-        echo"There was once a man named George </br>";
-        echo "He was 70 years old. </br>";
-        echo "He really liked the name George </br>";
-        echo "But did like being 79 </br>";
+    $descriptiveVariableName = "value";
+    $characterName = "George";
+    $character = 70;
+
+        echo "There was once a man named $characterName </br>";
+        echo "He was $character years old. </br>";
+        echo "He really liked the name $characterName </br>";
+        echo "But did like being $character </br>";
     ?>
 </body>
 </html>
