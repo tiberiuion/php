@@ -13,9 +13,18 @@
     echo "Some string I've echoed <br>";
 
     // strings can be stored in a variable and that variable can be echoed
-    $string = "Some other string stored in a variable";
+    $string = "Some other string stored in a variable </br>";
 
     echo $string;
+
+    echo "<h2>String functions</h2>";
+    // use functions to manipulate strings
+    echo strtolower($string);
+    // sets string to lowercase
+    echo strtoupper($string);
+    // sets string to all caps
+     echo strlen($string);   
+    // displays the number of characters in a string
     ?>
 </body>
 </html>
