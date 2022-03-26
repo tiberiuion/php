@@ -8,8 +8,23 @@
 </head>
 <body>
     <h1>Data types</h1>
+    <p>Basic overview of data types. They seem to be mostly consistent with javascript.</p>
+    <h2>String</h2>
     <?php
+    // string
+    $phrase = "To be or not to be";
 
+    // number - integer
+    $age = 30;   
+
+    //number - decimal number, floating point number or floats
+    $gpa = 30.9;
+
+    //boolean - can only be true or false
+    $isMale = true;
+
+    //null - no value
+    null
     ?>
 </body>
 </html>
