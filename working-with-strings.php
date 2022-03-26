@@ -25,6 +25,18 @@
     // sets string to all caps
      echo strlen($string);   
     // displays the number of characters in a string
+
+    // indexing strings
+    echo $string[0]; //S
+    // displays first character in the string
+    echo $string[1]; // o
+    // displays second character in the string
+
+    // assigns index 0 of string to T. In this case
+    $string[0] = "T";
+    echo $string; //Tome other string...
+
+    
     ?>
 </body>
 </html>
