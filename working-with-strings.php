@@ -36,7 +36,12 @@
     $string[0] = "T";
     echo $string; //Tome other string...
 
-    
+    // replace a sequence of character with another in the $string variable
+    echo str_replace("a ", "another ", $string); // Another string... 
+
+    // grabs 5 characters starting at index5 from the $sting variable
+    echo substr($string, 5, 5); //other
+
     ?>
 </body>
 </html>
