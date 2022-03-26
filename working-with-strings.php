@@ -9,7 +9,13 @@
 <body>
     <h1>Working with strings</h1>
     <?php
-    //code goes here
+    // strings can be echoed straight out
+    echo "Some string I've echoed <br>";
+
+    // strings can be stored in a variable and that variable can be echoed
+    $string = "Some other string stored in a variable";
+
+    echo $string;
     ?>
 </body>
 </html>
