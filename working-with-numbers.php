@@ -63,6 +63,32 @@
     $num /= 2; // 25
     echo $num;
     echo "<hr>";
+
+    //find absolute value of a number
+    echo abs(-100); // slightly unclear what this does, probably not the best example
+    echo "<hr>";
+    echo abs(3.4);
+    echo "<hr>";
+    // raise 2 to the power of 4
+    echo pow(2, 4); // 16
+    echo "<hr>";
+    // get square root of a number
+    echo sqrt(81); //  9
+    echo "<hr>";
+    // returns the biggest number 
+    echo max(2, 10); //10
+    echo "<hr>";
+    // returns the smallest number
+    echo min(2, 10); // 2
+    echo "<hr>";
+    // rounding numbers - rounds number based on standard rounding rules
+    echo round(3.2); // 3
+    echo "<hr>";
+    // rounds up a number no matter what
+    echo ceil(3.2); // 4
+    echo "<hr>";
+    //rounds down a number no matter what
+    echo floor(3.6) // 3
     ?>
 </body>
 </html>
