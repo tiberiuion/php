@@ -8,6 +8,10 @@
 </head>
 <body>
     <h1>Getting user input</h1>
+    <form action="getting-user-input.php" method="get">
+        Name: <input type="text" name="name">
+        <input type="submit">
+    </form>
     <?php
     // code goes here
     ?>
