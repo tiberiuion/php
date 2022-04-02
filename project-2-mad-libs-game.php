@@ -15,9 +15,14 @@
         <input type="submit">
     </form>
     <?php
-    echo "Roses are {colour} <br>";
-    echo "{noun plural} are blue <br>";
-    echo "I love {celebrity} <br>";
+
+    $colour = $_GET["colour"];
+    $pluralNoun = $_GET["pluralNoun"];
+    $celebrity = $_GET["celebrity"];
+
+    echo "Roses are $colour <br>";
+    echo "$pluralNoun are blue <br>";
+    echo "I love $celebrity <br>";
     ?>
 </body>
 </html>
