@@ -8,15 +8,15 @@
 </head>
 <body>
     <h1>Get vs post</h1>
-    <form action="get-vs-post.php" method="get">
+    <form action="get-vs-post.php" method="POST">
         Password: <input type="password" name="password">
         <input type="submit">
     </form>
     <?php
-        // not only does this prints the contents of the password input
-        // it also attaches that data as a URL parameter which is no bueno for passowrds
-        // so in order to get info in a secure way we need to use POST in the method attribute above.
-        echo $_GET["password"]
+        // prints the contents of the password field
+        // BUT it doesn't attach the data as a URL param
+        // users can submit forms in a more secure fashion
+        echo $_POST["password"]
     ?>
 </body>
 </html>
