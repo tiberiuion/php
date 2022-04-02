@@ -9,7 +9,9 @@
 <body>
     <h1>project 2 - Mad libs game</h1>
     <?php
-    // code goes here
+    echo "Roses are red <br>";
+    echo "Violets are blue <br>";
+    echo "I love you <br>";
     ?>
 </body>
 </html>
