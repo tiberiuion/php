@@ -9,7 +9,32 @@
 <body>
     <h1>Arrays</h1>
     <?php
-        //code goes here
+        // define an array just like any other variable
+        // $varname = array(index 1, index 2, index 3)
+        $friends = array("Mike", "Jill", "Gavin", "Mary");
+
+        // access the array using the index of the value
+        // $arrayname[index]
+        // indexing starts at 0
+        echo $friends[1]; // Jill
+        echo "<br>";
+
+        // array values can be modified on the fly
+        $friends[0] = "Leigh";
+        echo $friends[0]; // Leigh
+        echo "<br>";
+
+        // displays the number of items in an array
+        echo count($friends); // 4
+        echo "<br>";
+
+
+        // values can be added to the array
+        $friends[4] = "Jack";
+        
+        echo $friends[4];
+        echo "<br>";
+
     ?>
 </body>
 </html>
