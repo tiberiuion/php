@@ -15,7 +15,11 @@
         <input type="submit">
     </form>
     <?php
-        // code goes here
+        // define fruits array and get it on submission via POST method
+        $fruits = $_POST["fruits"];
+
+        // print out the second item that was ticked
+        echo $fruits[1];
     ?>
 </body>
 </html>
